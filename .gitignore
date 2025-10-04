@@ -21,3 +21,5 @@ CubeHopperConfig.json
 mods
 resourcepacks
 builds
+# Added by goreleaser init:
+dist/
