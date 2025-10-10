@@ -23,3 +23,5 @@ resourcepacks
 builds
 # Added by goreleaser init:
 dist/
+
+.DS_STORE

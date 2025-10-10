@@ -22,7 +22,7 @@ func NewConfigManager() (*ConfigManager, error) {
 	}
 
 	v.SetDefault("minecraft_path", currentDir)
-	v.SetDefault("api_base_url", "http://api.cubeshield.ru:8000/api/v1")
+	v.SetDefault("api_base_url", "http://api.cubeshield.ru:8000/api/v1/instances")
 	v.SetDefault("installed_containers", make([]types.Container, 0))
 
 	v.SetConfigName("CubeHopperConfig")

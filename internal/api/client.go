@@ -25,7 +25,7 @@ func NewApiClient(apiUrl string) *ApiClient {
 }
 
 func (c *ApiClient) GetInstance() (*types.Instance, error) {
-	requestURL := fmt.Sprintf("%s/instances", c.apiUrl)
+	requestURL := c.apiUrl
 	
 	resp, err := c.httpClient.Get(requestURL)
 	if err != nil {
